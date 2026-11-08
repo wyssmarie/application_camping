@@ -1,0 +1,446 @@
+{
+	"common": {
+		"selectLanguage": "Select your language",
+		"name": "Name",
+		"search": "To research...",
+		"locationNumber": "Location number",
+		"dashboard": "Dashboard",
+		"close": "Close",
+		"inputInformation": "Please enter the information",
+		"requiredField": "This field is required.",
+		"cancel": "Cancel",
+		"validate": "Validate",
+		"add": "Add",
+		"update": "Update",
+		"morning": "Morning",
+		"afternoon": "Afternoon",
+		"lunch": "Lunch",
+		"force": "Force",
+		"errorMessage" : "An error has occured.",
+		"confirmMessage" : "Are you sure you want to submit the form?",
+		"confirmDeleteMessage" : "Are you sure you want to delete?",
+		"export" : "Export to excel",
+		"confirmationTitle": "Are you sure ?",
+		"possibleError": "Possible errors",
+		"error": "Errors",
+		"confirmationBody": "This action cannot be undone.",
+		"siteNumber": "Site number",
+		"tent": "tent",
+		"caravan": "caravan",
+		"van": "van",
+		"camping-car": "camping car"
+	},
+	"loginForm": {
+		"lastName": "Last Name",
+		"firstName": "First Name",
+		"email": "Email",
+		"password": "Password",
+		"register": "Register",
+		"connection": "Connection",
+		"disconnection": "Sign out",
+		"notEmail": "This is not an email address.",
+		"required": "This field is required."
+	},
+	"camper": {
+		"possibleError": "Possible errors",
+		"title": "camper",
+		"number": "No.",
+		"customerInformations": "Customer",
+		"lastName": "Last Name",
+		"FirstName": "First Name",
+		"country": "Country",
+		"arrivalDate": "Arrival Date",
+		"departureDate": "Departure Date",
+		"detailsArrivalDate": "Date of arrival at the location",
+		"furtherInformation": "Additional",
+		"numberPeopleAnimals": "Number of People/Animals",
+		"adults": "Adults",
+		"teens": "Teens",
+		"kids": "Kids",
+		"babies": "Babies",
+		"animals": "Animals",
+		"locationInformations": "Location",
+		"locationType": "Type",
+		"electricity": "Electricity",
+		"water": "Water",
+		"actions": "Actions",
+		"create": "Create a stay",
+		"modify": "Modify the stay",
+		"end": "Finish the stay",
+		"delete": "Delete the stay",
+		"research": "Search for a stay",
+		"success": {
+			"stayCreated": "The stay has been created.",
+			"stayUpdated": "The stay has been updated.",
+			"stayDeleted": "The stay has been deleted.",
+			"stayFinished": "The stay has been finished."
+		},
+		"confirmAdd": "Are you sure you want to add this stay?",
+		"confirmDelete": "Are you sure you want to delete this stay?",
+		"addStay": {
+			"title": "Add a stay",
+			"informations": "Please enter the information",
+			"client": {
+				"requiredName": "The customer's name is required",
+				"requiredFirstName": "The customer's first name is required",
+				"requiredValidEmail": "The customer's email is required",
+				"requiredEmail": "The customer's email is not valid",
+				"requiredAdress": "The customer's address is required",
+				"requiredCity": "The customer's city is required",
+				"requiredPostalCode": "The customer's postal code is required",
+				"requiredCountry": "The customer's country is required",
+				"requiredPhoneNumber": "The customer's phone number is required"
+			},
+			"complementary": {
+				"title": "Additional information",
+				"siteNumberRequired": "The site number is required",
+				"arrivalDate": "Arrival date",
+				"arrivalDateError": "Arrival date must be less or equal to today",
+				"requiredArrivalDate": "The arrival date is required",
+				"departureDate": "Departure date",
+				"departureDateError": "Departure date must be later or equal to arrival",
+				"requiredDepartureDate": "The departure date is required",
+				"adultNumber": "Number of adults",
+				"requiredAdultNumber": "The number of adults is required",
+				"requiredAdultNumberGreater1": "The minimum number of adult is 1",
+				"requiredAdultNumberLess10": "The maximum number of adults is 10",
+				"teenNumber": "Number of teens",
+				"requiredTeenNumber": "The number of teens is required",
+				"requiredTeenNumberGreater0": "The minimum number of teens is 0",
+				"requiredTeenNumberLess10": "The maximum number of teens is 10",
+				"kidNumber": "Number of kids",
+				"requiredKidNumber": "The number of kids is required",
+				"requiredKidNumberGreater0": "The minimum number of kids is 0",
+				"requiredKidNumberLess10": "The maximum number of kids is 10",
+				"babyNumber": "Number of babies",
+				"requiredBabyNumber": "The number of babies is required",
+				"requiredBabyNumberGreater0": "The minimum number of babies is 0",
+				"requiredBabyNumberLess10": "The maximum number of babies is 10",
+				"animalNumber": "Number of animals",
+				"requiredAnimalNumber": "The number of animals is required",
+				"requiredAnimalNumberGreater0": "The minimum number of animals is 0",
+				"requiredAnimalNumberLess10": "The maximum number of animals is 10",
+				"nbPersonError": "The number of people exceeds the capacity of the site",
+				"years" : "years old"
+			}
+		},
+		"editStay": {
+			"title": "Edit a stay"
+		}
+	},
+	"reservation": {
+		"title": "reservation",
+		"research": "Search for a reservation",
+		"addNew": "Add a reservation",
+		"createReservation": "Create a reservation",
+		"modifyReservation": "Modify a reservation",
+		"confirmDelete": "Are you sure you want to delete this reservation?",
+		"phoneNumber": "Phone number",
+		"customerInformations": "Customer Information",
+		"lastName": "Last Name",
+		"firstName": "First Name",
+		"country": "Country",
+		"arrivalDate": "Arrival Date",
+		"detailsArrivalDate": "Date of arrival at the location",
+		"furtherInformation": "Additional Information",
+		"numberPeopleAnimals": "Number of People/Animals",
+		"adults": "Adults",
+		"kids": "Kids",
+		"babies": "Babies",
+		"animals": "Animals",
+		"email": "Email",
+		"locationInformations": "Location Information",
+		"actions": "Actions",
+		"create": "Create a reservation",
+		"modify": "Modify the reservation",
+		"siteNumber":"Site number",
+		"end": "Finish the reservation",
+		"departureDate": "Departure date",
+		"success": {
+			"reservationCreated": "The reservation has been created.",
+			"reservationDeleted": "The reservation has been deleted.",
+			"reservationStarted" : "The reservation has been started."
+		},
+		"addReservation": {
+			"title": "Add a reservation",
+			"informations": "Please enter the information",
+			"client": {
+				"requiredName": "The customer's name is required",
+				"requiredFirstName": "The customer's first name is required",
+				"requiredValidEmail": "The customer's email is required",
+				"requiredEmail": "The customer's email is not valid",
+				"requiredAdress": "The customer's address is required",
+				"requiredCity": "The customer's city is required",
+				"requiredPostalCode": "The customer's postal code is required",
+				"requiredCountry": "The customer's country is required",
+				"requiredPhoneNumber": "The customer's phone number is required"
+			},
+			"complementary": {
+				"title": "Additional information",
+				"arrivalDate": "Arrival date",
+				"arrivalDateError": "Arrival date must be later than today",
+				"immatriculation": "Registration",
+				"requiredArrivalDate": "The arrival date is required",
+				"departureDate": "Departure date",
+				"requiredDepartureDate": "The departure date is required",
+				"adultNumber": "Number of adults",
+				"requiredAdultNumber": "The number of adults is required",
+				"requiredAdultNumberGreater0": "The minimum number of adults is 0",
+				"requiredAdultNumberLess10": "The maximum number of adults is 10",
+				"teenNumber": "Number of teens",
+				"requiredTeenNumber": "The number of teens is required",
+				"requiredTeenNumberGreater0": "The minimum number of teens is 0",
+				"requiredTeenNumberLess10": "The maximum number of teens is 10",
+				"kidNumber": "Number of kids",
+				"requiredKidNumber": "The number of kids is required",
+				"requiredKidNumberGreater0": "The minimum number of kids is 0",
+				"requiredKidNumberLess10": "The maximum number of kids is 10",
+				"babyNumber": "Number of babies",
+				"requiredBabyNumber": "The number of babies is required",
+				"requiredBabyNumberGreater0": "The minimum number of babies is 0",
+				"requiredBabyNumberLess10": "The maximum number of babies is 10",
+				"animalNumber": "Number of animals",
+				"requiredAnimalNumber": "The number of animals is required",
+				"requiredAnimalNumberGreater0": "The minimum number of animals is 0",
+				"requiredAnimalNumberLess10": "The maximum number of animals is 10",
+				"nbStay":"The site number is required"
+			}
+		},
+		"startReservation": {
+			"error": "A stay overlaps with the entered dates."
+		}
+	},
+	"site": {
+		"title": "Site",
+		"number": "Number",
+		"type": "Type",
+		"electricity": "Electricity",
+		"edit": "Edit",
+		"delete": "Delete",
+		"water": "Water",
+		"sun": "Sun",
+		"size": "Site size",
+		"addNew": "Add a site",
+		"createSite": "Create a site",
+		"modifySite": "Modify a site",
+		"deleteSite": "Delete a site",
+		"research": "Search for a site",
+		"small": "Small site",
+		"large": "Large site",
+		"exposition": "Exposition",
+		"formSubCategory": {
+			"mainInformation": "Main informations",
+			"electricity": "Electricity",
+			"exposition": "Expositions"
+		},
+		"error": {
+			"siteAlreadyExist": "This site already exists."
+		},
+		"success": {
+			"reservationStarted": "The reservation has been started.",
+			"siteCreated": "The site has been created.",
+			"siteUpdated": "The site has been updated.",
+			"siteDeleted": "The site has been deleted."
+		},
+		"confirmAdd": "Are you sure you want to add this site?",
+		"confirmDelete": "Are you sure you want to delete this site?",
+		"confirmEdit": "Are you sure you want to edit this site?"
+	},
+	"client": {
+		"title": "Client",
+		"lastName": "Last Name",
+		"firstName": "First Name",
+		"email": "Email",
+		"phoneNumber": "Phone Number",
+		"address": "Address",
+		"city": "City",
+		"postalCode": "Postal Code",
+		"country": "Country",
+		"registration": "Registration",
+		"actions": "Actions",
+		"customerInformations": "Customer Information",
+		"furtherInformation": "Additional Information",
+		"arrivalDate": "Arrival date",
+		"departureDate": "Departure date",
+		"stayType": "Type",
+		"numberPeopleAnimals": "Number of People/Animals",
+		"research": "Search for a customer",
+		"adults": "Adults",
+		"kids": "Kids",
+		"babies": "Babies",
+		"animals": "Animals"
+	},
+	"button": {
+		"validate": "Validate",
+		"cancel": "Cancel",
+		"add": "Add",
+		"edit": "Edit",
+		"delete": "Delete"
+	},
+	"accomodationTypes": {
+		"tent": "Tent",
+		"van": "Van",
+		"camperVan": "Camper van",
+		"caravan": "Caravan"
+	},
+	"installation": {
+		"reservation": {
+			"findResa": "Find my reservation",
+			"validateResa": "Validate my stay",
+			"confirmRecapGood": "Your stay has started and you can enjoy the campsite!",
+			"confirmRecapError": "Un problème est survenu, veuillez contacter le gérant du camping.",
+			"checkBox": "A problem has occurred, please contact the campsite manager."
+		},
+		"stepper": {
+			"welcome": "Presentation of the camping",
+			"siteChoice": "Choice of site",
+			"register": "Registration"
+		},
+		"call": {
+			"urgence":"If you have a problem, you can contact Florent at"
+		},
+		"generalChoices": {
+			"yes": "Yes",
+			"no": "No",
+			"whatever": "Doesn't matter"
+		},
+		"welcomePage": {
+			"title": "Welcome to the camping </br> Le Chenantier",
+			"button": "I visit the camping",
+			"button2": "I have a reservation",
+			"button3": "I am installed"
+		},
+		"presentationPage": {
+			"title": "Presentation of the camping",
+			"content1": "Hello & welcome to Chenantier Camping.",
+			"content2": "I now invite you to discover the campsite through this small video",
+			"button": "See the sites"
+		},
+		"presentationSite": {
+			"headPage": "Discover the sites",
+			"title": "We have several types of locations :",
+			"item1": {
+				"content": "south-facing (with the shade of your tent or caravan), a magnificent 180° view of the Dent Parrachée and the Vanoise National Park. 2 pitches per terrace. Ideal for enjoying the view and the sun.",
+				"title": "Panoramic terraces:"
+			},
+			"item2": {
+				"content": "in the shade in the morning and at lunchtime with a magnificent view.",
+				"title": "Individual terraces:"
+			},
+			"item3": {
+				"content": "Located at 1250m. The hottest hours are between 12 and 4pm. Nights remain cool, so the sun is quite welcome, especially in the morning and evening. If you plan to be out and about almost every day, don't necessarily look for shade!",
+				"title": "Sun:"
+			},
+			"item4": {
+				"content": "Don't hesitate, take a look.",
+				"title": "Sanitary facilities: "
+			},
+			"item5": {
+				"content": "quieter, with shade for the most part.",
+				"title": "More intimate pitches: "
+			},
+			"button": "I'm looking for a location"
+		},
+		"siteFormPage": {
+			"title": "Location form",
+			"content": "In order to offer you a suitable location, please fill in the form below.",
+			"label": {
+				"nbPerson": "Number of people (+3 years) *",
+				"nbNight": "Number of nights *",
+				"accomodation": "Main accommodation",
+				"electricity": "Electricity"
+			},
+			"error": {
+				"requiredField": "Required field",
+				"nbPersonMin": "Minimum number of people: 1",
+				"nbNightMin": "Minimum number of nights: 1",				
+				"phonePattern": "The format is not good"
+
+			},
+			"info": {
+				"nbNight": "If you like the campsite and the region, if the weather is OK, how many nights maximum would you like to stay? This allows us to determine which pitches are available, and you can then adjust the length of your stay according to your wishes."
+			},
+			"button": "Search"
+		},
+		"siteListPage": {
+			"title": "Available sites",
+			"button": {
+				"map": "Site's map",
+				"filters": "Filter"
+			},
+			"listLabel": {
+				"availableToday": "{{number}} available now",
+				"availableTomorrow": "{{number}} available tomorrow"
+			},
+			"chips": {
+				"siteNumber": "Site {{number}}",
+				"siteFullyAvailable": "Available",
+				"sitePartiallyAvailable": "Available for {{day}} day(s)",
+				"maxCapacity": "{{capacity}} max.",
+				"electricityAvailable": "Available",
+				"electricityUnavailable": "Unavailable"
+			},
+			
+			"filters": {
+				"sun": "Sun",
+				"shadow": "Shadow",
+				"whatever": "Whatever"
+			}
+		},
+		"register": {
+			"title": "Registration form"
+		},
+		"recap": {
+			"chosenSite": "You have chosen the site {{number}}",
+			"writeInformation": "Please enter your details to complete your registration",
+			"personalInformation": "Personal Information",
+			"country": "Country",
+			"immatriculation": "Immatriculation",
+			"contact": "Contact",
+			"phoneNumber": "Phone Number" ,
+			"startStay": "Start my stay",
+			"recapitulatif": "Recapitulatif",
+			"siteNumber": "Site n° {{number}}",
+			"informations": "Informations",
+			"accommodation": "Accommodation",
+			"numberOfPeople": "Number of people",
+			"accomodationType": "Accomodation type",
+			"sunlight": "Sunshine",
+			"numberOfAnimals": "Number of animals",
+			"numberOfKids": "Number of kids (3-11 years old)",
+			"numberOfBabies": "Number of Babies (0-2 years old)",
+			"numberOfAdults": "Number of adults (12+ years old)",
+			"minNumber1": "Need at least 1",
+			"minNumber0": "Need at least 0",
+			"stay": "Stay information",
+			"site": "Site information",
+			"pricingTitle": "Price information",
+			"endRegistration": "Registration confirmed, enjoy your stay!",
+			"pricing": {
+				"nightCost": "Cost/night",
+				"totalNightCost": "Total/night",
+				"estimatedNightCost": "Estimated cost/night",
+				"nbAdults": "{{number}} adult(s)",
+				"nbKids": "{{number}} kid(s)",
+				"nbAnimal": "{{number}} animal",
+				"nbAnimals": "{{number}} animals"
+			}
+		}
+	},	
+	"pricing": {
+		"title": "Prices",
+		"bigSitePrice": "Big site price",
+		"smallSitePrice": "Small site price",
+		"electricityFee": "Electricity fee",
+		"adultPrice": "Adult rate",
+		"adultTax": "Adult tax",
+		"kidPrice": "Child rate",
+		"animalTax": "Animal tax",
+		"success": {
+			"updated": "Prices have been changed"
+		},
+		"error": {
+			"updated": "Problem updating prices"
+		}
+	}
+}

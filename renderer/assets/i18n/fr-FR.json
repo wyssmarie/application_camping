@@ -1,0 +1,447 @@
+{
+	"common": {
+		"selectLanguage": "Choisir la langue",
+		"name": "Nom",
+		"search": "Rechercher...",
+		"locationNumber": "Numéro d'emplacement",
+		"dashboard": "Tableau de bord",
+		"close": "Fermer",
+		"inputInformation": "Veuillez saisir les informations",
+		"requiredField": "Ce champ est requis",
+		"cancel": "Annuler",
+		"validate": "Valider",
+		"add": "Ajouter",
+		"update": "Modifier",
+		"morning": "Matin",
+		"afternoon": "Après-midi",
+		"lunch": "Midi",
+		"immatriculation": "Immatriculation",
+		"force": "Forcer",
+		"errorMessage" : "Une erreur est survenue.",
+		"confirmMessage" : "Êtes vous sûr de vouloir envoyer le formulaire ?",
+		"export" : "Exporter vers Excel",
+		"possibleError": "Erreurs possibles",
+		"error": "Erreurs",
+		"confirmDeleteMessage" : "Êtes vous sûr de vouloir supprimer ?",
+		"confirmationTitle": "Etes vous sûr ?",
+		"confirmationBody": "Cette action ne peut être annulée.",
+		"siteNumber": "Numéro d'emplacement",
+		"tent": "tente",
+		"caravan": "caravane",
+		"van": "fourgon",
+		"camping-car": "camping car"
+	},
+	"loginForm": {
+		"lastName": "Nom",
+		"firstName": "Prénom",
+		"email": "Email",
+		"password": "Mot de passe",
+		"register": "Créer un compte",
+		"connection": "Connexion",
+		"disconnection": "Se déconnecter",
+		"notEmail": "Ce n'est pas une adresse mail.",
+		"required": "Ce champ est requis."
+	},
+	"camper": {
+		"title": "Campeur",
+		"number": "N°",
+		"customerInformations": "Client",
+		"lastName": "Nom",
+		"FirstName": "Prénom",
+		"country": "Pays",
+		"arrivalDate": "Date d'arrivée",
+		"departureDate": "Date de départ",
+		"detailsArrivalDate": "Date d'arrivée sur l'emplacement",
+		"furtherInformation": "Complémentaires",
+		"numberPeopleAnimals": "Nb personnes/animaux",
+		"adults": "Adultes",
+		"teens": "Adolescents",
+		"kids": "Enfants",
+		"babies": "Bambins",
+		"animals": "Animaux",
+		"locationInformations": "Emplacement",
+		"locationType": "Type",
+		"electricity": "Electricité",
+		"water": "Eau",
+		"actions": "Actions",
+		"create": "Créer un séjour",
+		"modify": "Modifier le séjour",
+		"end": "Terminer du séjour",
+		"delete": "Supprimer le séjour",
+		"research": "Rechercher un séjour",
+		"success": {
+			"stayCreated": "Le séjour a bien été créé.",
+			"stayUpdated": "Le séjour a bien été modifié.",
+			"stayDeleted": "Le séjour a bien été supprimé.",
+			"stayFinished": "Le séjour a bien été terminé."
+		},
+		"confirmAdd": "Êtes-vous sûr de vouloir créer ce séjour ?",
+		"confirmDelete": "Êtes-vous sûr de vouloir supprimer ce séjour ?",
+		"addStay": {
+			"title": "Ajouter un séjour",
+			"informations": "Veuillez saisir les informations",
+			"client": {
+				"requiredName": "Le nom du client est requis",
+				"requiredFirstName": "Le prénom du client est requis",
+				"requiredValidEmail": "Veuillez entrer une adresse mail valide",
+				"requiredEmail": "L'email du client est requis",
+				"requiredAdress": "L'adresse du client est requise",
+				"requiredCity": "La ville du client est requise",
+				"requiredPostalCode": "Le code postal du client est requis",
+				"requiredCountry": "Le pays du client est requis",
+				"requiredPhoneNumber": "Le numéro de téléphone du client est requis"
+			},
+			"complementary": {
+				"title": "Complémentaires",
+				"siteNumberRequired": "Le numéro de l'emplacement est requis",
+				"arrivalDate": "Date d'arrivée",
+				"arrivalDateError": "La date d'arrivée doit être inférieure ou égal à aujourd'hui",
+				"requiredArrivalDate": "La date d'arrivée est requise",
+				"departureDate": "Date de départ",
+				"departureDateError": "La date de départ doit être supérieure ou égale à celle d'arrivée",
+				"requiredDepartureDate": "La date de départ est requise",
+				"adultNumber": "Nombre d'adultes",
+				"requiredAdultNumber": "Le nombre d'adultes est requis",
+				"requiredAdultNumberGreater1": "Le nombre minimum d'adulte est 1",
+				"requiredAdultNumberLess10": "Le nombre maximum d'adultes est 10",
+				"teenNumber": "Nombre d'adolescents",
+				"requiredTeenNumber": "Le nombre d'adolescents est requis",
+				"requiredTeenNumberGreater0": "Le nombre minimum d'adolescents est 0",
+				"requiredTeenNumberLess10": "Le nombre maximum d'adolescents est 10",
+				"kidNumber": "Nombre d'enfants",
+				"requiredKidNumber": "Le nombre d'enfants est requis",
+				"requiredKidNumberGreater0": "Le nombre minimum d'enfants est 0",
+				"requiredKidNumberLess10": "Le nombre maximum d'enfants est 10",
+				"babyNumber": "Nombre de bambins",
+				"requiredBabyNumber": "Le nombre de bambins est requis",
+				"requiredBabyNumberGreater0": "Le nombre minimum de bambins est 0",
+				"requiredBabyNumberLess10": "Le nombre maximum de bambins est 10",
+				"animalNumber": "Nombre d'animaux",
+				"requiredAnimalNumber": "Le nombre d'animaux est requis",
+				"requiredAnimalNumberGreater0": "Le nombre minimum d'animaux est 0",
+				"requiredAnimalNumberLess10": "Le nombre maximum d'animaux est 10",
+				"nbPersonError": "Le nombre de personnes dépasse la capacité de l'emplacement",
+				"years" : "ans"
+			}
+		},
+		"editStay": {
+			"title": "Modifier un séjour"
+		}
+	},
+	"reservation": {
+		"title": "Réservation",
+		"research": "Rechercher une réservation",
+		"addNew": "Ajouter une réservation",
+		"phoneNumber": "Numéro de téléphone",
+		"customerInformations": "Informations client",
+		"lastName": "Nom",
+		"firstName": "Prénom",
+		"country": "Pays",
+		"arrivalDate": "Date d'arrivée",
+		"detailsArrivalDate": "Date d'arrivée sur les lieux",
+		"furtherInformation": "Informations supplémentaires",
+		"numberPeopleAnimals": "Nombre de personnes/animaux",
+		"adults": "Adultes",
+		"kids": "Enfants",
+		"babies": "Bébés",
+		"animals": "Animaux",
+		"email": "Email",
+		"locationInformations": "Informations sur la location",
+		"actions": "Actions",
+		"create": "Créer une réservation",
+		"modify": "Modifier la réservation",
+		"end": "Terminer la réservation",
+		"departureDate": "Date de départ",
+		"siteNumber":"Numéro d'emplacement",
+		"createReservation": "Créer une réservation",
+		"modifyReservation": "Modifier la réservation",
+		"confirmDelete": "Êtes-vous sûr de vouloir supprimer cette réservation ?",
+		"success": {
+			"reservationCreated": "La réservation a bien été créée.",
+			"reservationDeleted": "La réservation a bien été supprimée.",
+			"reservationStarted" : "La réservation a  bien été démarée."
+
+		},
+		"addReservation": {
+			"title": "Ajouter une réservation",
+			"informations": "Veuillez entrer les informations",
+			"client": {
+				"requiredName": "Le nom du client est requis",
+				"requiredFirstName": "Le prénom du client est requis",
+				"requiredValidEmail": "L'email du client est requis",
+				"requiredEmail": "L'email du client n'est pas valide",
+				"requiredAdress": "L'adresse du client est requise",
+				"requiredCity": "La ville du client est requise",
+				"requiredPostalCode": "Le code postal du client est requis",
+				"requiredCountry": "Le pays du client est requis",
+				"requiredPhoneNumber": "Le numéro de téléphone du client est requis"
+			},
+			"complementary": {
+				"title": "Informations supplémentaires",
+				"immatriculation": "Immatriculation",
+				"arrivalDate": "Date d'arrivée",
+				"arrivalDateError": "La date d'arrivée doit être supérieure à aujourd'hui",
+				"requiredArrivalDate": "La date d'arrivée est requise",
+				"departureDate": "Date de départ",
+				"requiredDepartureDate": "La date de départ est requise",
+				"adultNumber": "Nombre d'adultes",
+				"requiredAdultNumber": "Le nombre d'adultes est requis",
+				"requiredAdultNumberGreater0": "Le nombre minimum d'adultes est de 0",
+				"requiredAdultNumberLess10": "Le nombre maximum d'adultes est de 10",
+				"teenNumber": "Nombre d'adolescents",
+				"requiredTeenNumber": "Le nombre d'adolescents est requis",
+				"requiredTeenNumberGreater0": "Le nombre minimum d'adolescents est de 0",
+				"requiredTeenNumberLess10": "Le nombre maximum d'adolescents est de 10",
+				"kidNumber": "Nombre d'enfants",
+				"requiredKidNumber": "Le nombre d'enfants est requis",
+				"requiredKidNumberGreater0": "Le nombre minimum d'enfants est de 0",
+				"requiredKidNumberLess10": "Le nombre maximum d'enfants est de 10",
+				"babyNumber": "Nombre de bébés",
+				"requiredBabyNumber": "Le nombre de bébés est requis",
+				"requiredBabyNumberGreater0": "Le nombre minimum de bébés est de 0",
+				"requiredBabyNumberLess10": "Le nombre maximum de bébés est de 10",
+				"animalNumber": "Nombre d'animaux",
+				"requiredAnimalNumber": "Le nombre d'animaux est requis",
+				"requiredAnimalNumberGreater0": "Le nombre minimum d'animaux est de 0",
+				"requiredAnimalNumberLess10": "Le nombre maximum d'animaux est de 10",
+				"nbStay":"Le numéro d'emplacement est requis"
+			}
+		},
+		"startReservation": {
+			"error": "Un séjour est déjà en cours sur les dates de la réservation."
+		}
+	},
+	"site": {
+		"title": "Emplacement",
+		"number": "Numéro",
+		"type": "Type",
+		"electricity": "Electricité",
+		"edit": "Modifier",
+		"delete": "Supprimer",
+		"water": "Eau",
+		"sun": "Soleil",
+		"size": "Taille d'emplacement",
+		"addNew": "Ajouter un emplacement",
+		"createSite": "Créer un emplacement",
+		"modifySite": "Modifier l'emplacement",
+		"deleteSite": "Supprimer l'emplacement",
+		"research": "Rechercher un emplacement",
+		"small": "Petit emplacement",
+		"large": "Grand emplacement",
+		"exposition": "Exposition",
+		"formSubCategory": {
+			"mainInformation": "Informations principales",
+			"electricity": "Électricité",
+			"exposition": "Expositions"
+		},
+		"error": {
+			"siteAlreadyExist": "L'emplacement existe déjà."
+		},
+		"success": {
+			"reservationStarted": "La réservation a bien été démarrée.",
+			"siteCreated": "L'emplacement a bien été créé.",
+			"siteUpdated": "L'emplacement a bien été modifié.",
+			"siteDeleted": "L'emplacement a bien été supprimé."
+		},
+		"confirmAdd": "Êtes-vous sûr de vouloir créer cet emplacement ?",
+		"confirmDelete": "Êtes-vous sûr de vouloir supprimer cet emplacement ?",
+		"confirmEdit": "Êtes-vous sûr de vouloir modifier cet emplacement ?"
+	},
+	"client": {
+		"title": "Client",
+		"lastName": "Nom",
+		"firstName": "Prénom",
+		"email": "Adresse mail",
+		"phoneNumber": "Numéro de téléphone",
+		"address": "Adresse",
+		"city": "Ville",
+		"postalCode": "Code postal",
+		"country": "Pays",
+		"registration": "Immatriculation",
+		"actions": "Actions",
+		"customerInformations": "Informations du client",
+		"furtherInformation": "Informations complémentaires",
+		"arrivalDate": "Date d'arrivée",
+		"departureDate": "Date de départ",
+		"stayType": "Type",
+		"research": "Rechercher un client",
+		"adults": "Adultes",
+		"teens": "Adolescents",
+		"numberPeopleAnimals": "Nombre de personnes/animaux",
+		"kids": "Enfants",
+		"babies": "Bambins",
+		"animals": "Animaux"
+	},
+	"button": {
+		"validate": "Valider",
+		"cancel": "Annuler",
+		"add": "Ajouter",
+		"edit": "Modifier",
+		"delete": "Supprimer"
+	},
+	"accomodationTypes": {
+		"tent": "Tente",
+		"van": "Fourgon",
+		"camperVan": "Camping-car",
+		"caravan": "Caravane"
+	},
+	"installation": {
+		"reservation": {
+			"findResa": "Trouver ma réservation",
+			"validateResa": "Valider mon séjour",
+			"confirmRecapGood": "Votre séjour a bien été commencé, vous pouvez profiter du camping !",
+			"confirmRecapError": "Un problème est survenu, veuillez contacter le gérant du camping.",
+			"checkBox": "Le récapitulatif est correct et l'emplacement me convient."
+		},
+		"stepper": {
+			"welcome": "Présentation du camping",
+			"siteChoice": "Choix de l'emplacement",
+			"register": "Inscription"
+		},
+		"call": {
+			"urgence":"Si vous avez un problème, vous pouvez contacter Florent au"
+		},
+		"generalChoices": {
+			"yes": "Oui",
+			"no": "Non",
+			"whatever": "Peu importe"
+		},
+		"welcomePage": {
+			"title": "Bienvenue au camping </br> Le Chenantier",
+			"button": "Je visite le camping",
+			"button2": "J'ai une réservation",
+			"button3": "Je suis installé"
+
+		},
+		"presentationPage": {
+			"title": "Presentation du camping",
+			"content1": "Bonjour & bienvenue au camping le Chenantier.",
+			"content2": "Je vous propose maintenant de découvrir le camping à travers cette petite vidéo",
+			"button": "Voir les emplacements"
+		},
+		"presentationSite": {
+			"headPage": "Découvrez nos emplacements",
+			"title": "Nous avons plusieurs types d'emplacements :",
+			"item1": {
+				"content": "Dos au sud (avec l'ombre de votre tente ou caravane), une magnifique vue à 180° sur la Dent Parrachée et le Parc National de la Vanoise. 2 emplacements par terrasse. Idéal pour profiter de la vue et du soleil.",
+				"title": "Les terrasses panoramiques :"
+			},
+			"item2": {
+				"content": "A l'ombre le matin et le midi accompagné d'une vue magnifique.",
+				"title": "Les terrasses individuelles :"
+			},
+			"item3": {
+				"content": "Situé à 1250m. Les heures chaudes sont entre 12h et 16h. Les nuits restent fraîches, le soleil est donc plutôt le bienvenu, surtout le matin et le soir. Si vous prévoyez d'être de sortie à peu près tous les jours, ne cherchez pas forcément de l'ombre !",
+				"title": "Soleil :"
+			},
+			"item4": {
+				"content": "N'hésitez pas, allez y jeter un oeil.",
+				"title": "Sanitaires : "
+			},
+			"item5": {
+				"content": "Plus calmes, avec de l'ombre en majorité.",
+				"title": "Les emplacements plus intimes :"
+			},
+			"button": "Je cherche un emplacement"
+		},
+		"siteFormPage": {
+			"title": "Formulaire de recherche",
+			"content": "Pour pouvoir vous proposer un emplacement adéquat, merci de remplir le formulaire ci-dessous.",
+			"label": {
+				"nbPerson": "Nombre de personnes (3 ans et +) *",
+				"nbNight": "Nombre de nuits *",
+				"accomodation": "Hébergement principal",
+				"electricity": "Electricité"
+			},
+			"error": {
+				"requiredField": "Champ requis",
+				"nbPersonMin": "Nombre de personnes minimum : 1",
+				"nbNightMin": "Nombre de nuits minimum : 1",
+				"phonePattern": "Le format n'est pas bon"
+			},
+			"info": {
+				"nbNight": "Si le camping et la région vous plaisent, si la météo est OK, combien de nuits au maximum souhaiteriez-vous rester ? Cela nous permet de définir quels emplacements sont disponibles, vous ajustez ensuite la durée votre séjour selon vos envies"
+			},
+			"button": "Rechercher"
+		},
+		"siteListPage": {
+			"title": "Liste des emplacements",
+			"button": {
+				"map": "Plan des emplacements",
+				"filters": "Filtrer"
+			},
+			"listLabel": {
+				"availableToday": "{{number}} disponible(s) maintenant",
+				"availableTomorrow": "{{number}} disponible(s) demain"
+			},
+			"chips": {
+				"siteNumber": "Emplacement {{number}}",
+				"siteFullyAvailable": "Disponible",
+				"sitePartiallyAvailable": "Dispo. pour {{day}} jour(s)",
+				"maxCapacity": "{{capacity}} max.",
+				"electricityAvailable": "Disponible",
+				"electricityUnavailable": "Indisponible"
+			},
+			"filters": {
+				"sun": "Soleil",
+				"shadow": "Ombre",
+				"whatever": "Peu importe"
+			}
+		},
+		"register": {
+			"title": "Formulaire d'enregistrement"
+		},
+		"recap": {
+			"chosenSite": "Vous avez choisi l'emplacement {{number}}",
+			"writeInformation": "Veuillez saisir vos informations pour finaliser votre inscription",
+			"personalInformation": "Informations personnelles",
+			"country": "Pays",
+			"immatriculation": "Immatriculation",
+			"contact": "Contact",
+			"phoneNumber": "Numéro de téléphone",
+			"startStay": "Débuter mon séjour",
+			"recapitulatif": "Récapitulatif",
+			"siteNumber": "Emplacement n° {{number}}",
+			"informations": "Informations",
+			"accommodation": "Hébergement",
+			"numberOfPeople": "Nombre de personnes",
+			"accomodationType": "Type d'hébergement",
+			"sunlight": "Ensoleillement",
+			"numberOfAnimals": "Nombre d'animaux",
+			"numberOfKids": "Nombre d'enfants (3-11 ans)",
+			"numberOfBabies": "Nombre de bébés (0-2 ans)",
+			"numberOfAdults": "Nombre d'adultes (12+ ans)",
+			"minNumber1": "Minimum 1",
+			"minNumber0": "Minimum 0",
+			"stay": "Informations séjour",
+			"site": "Informations emplacement",
+			"pricingTitle": "Informations prix",
+			"endRegistration": "Enregistrement confirmé, bon séjour !",
+			"pricing": {
+				"nightCost": "Coût/nuit",
+				"totalNightCost": "Total/nuit",
+				"estimatedNightCost": "Coût prévisionnel/nuit",
+				"nbAdults": "{{number}} adulte(s)",
+				"nbKids": "{{number}} enfant(s)",
+				"nbAnimal": "{{number}} animal",
+				"nbAnimals": "{{number}} animaux"
+			}
+		}
+	},
+	"pricing": {
+		"title": "Tarif",
+		"bigSitePrice": "Grand emplacement",
+		"smallSitePrice": "Petit emplacement",
+		"electricityFee": "Frais d'électricité",
+		"adultPrice": "Tarif adulte",
+		"kidPrice": "Tarif enfant",
+		"adultTax": "Taxe adulte",
+		"animalTax": "Taxe par animal",
+		"success": {
+			"updated": "Les prix ont bien été modifiés"
+		},
+		"error": {
+			"updated": "Problème lors de la mise à jour des tarifs"
+		}
+	}
+}

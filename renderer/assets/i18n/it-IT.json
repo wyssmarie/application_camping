@@ -1,0 +1,442 @@
+{
+	"common": {
+		"selectLanguage": "Seleziona la lingua",
+		"name": "Nome",
+		"search": "Ricercare...",
+		"locationNumber": "Numero di posizione",
+		"dashboard": "Pannello di controllo",
+		"close": "Chiudere",
+		"inputInformation": "Inserisci le informazioni",
+		"requiredField": "Questo campo è obbligatorio.",
+		"cancel": "Annulla",
+		"validate": "Convalidare",
+		"add": "Aggiungere",
+		"update": "Modificare",
+		"morning": "Mattina",
+		"afternoon": "Pomeriggio",
+		"lunch": "Pranzo",
+		"force": "Forza",
+		"errorMessage" : "Une erreur est survenue.",
+		"confirmMessage" : "Sei sicuro di voler inviare il modulo?",
+		"confirmDeleteMessage" : "Sei sicuro di voler eliminare?",
+		"export" : "Esportare in Excel",
+		"confirmationTitle": "È sicuro che ?",
+		"confirmationBody": "Questa azione non può essere annullata.",
+		"siteNumber": "Numero di posizione",
+		"tent": "tenda",
+		"caravan": "caravan",
+		"van": "furgone",
+		"camping-car": "camper"
+	},
+	"loginForm": {
+		"lastName": "Cognome",
+		"FirstName": "Nome",
+		"email": "Email",
+		"password": "Password",
+		"register": "Registrare",
+		"connection": "Connessione",
+		"disconnection": "Disconnessione",
+		"notEmail": "Questo non è un indirizzo email.",
+		"required": "Questo campo è obbligatorio.",
+		"possibleError": "Possibili errori",
+		"error" : "Possibili errori"
+	},
+	"camper": {
+		"title": "Campeggiatori",
+		"number": "N°",
+		"customerInformations": "Cliente",
+		"lastName": "Cognome",
+		"FirstName": "Nome",
+		"country": "Paese",
+		"arrivalDate": "Data di arrivo",
+		"departureDate": "Data di partenza",
+		"detailsArrivalDate": "Data di arrivo sul posto",
+		"furtherInformation": "Aggiuntive",
+		"numberPeopleAnimals": "Numero di persone/animali",
+		"adults": "Adulti",
+		"teens": "Adolescenti",
+		"kids": "Bambini",
+		"babies": "Bambini piccoli",
+		"animals": "Animali",
+		"locationInformations": "Posizione",
+		"locationType": "Tipo",
+		"electricity": "Elettricità",
+		"water": "Acqua",
+		"actions": "Azioni",
+		"create": "Crea un soggiorno",
+		"modify": "Modificare il soggiorno",
+		"end": "Termina il soggiorno",
+		"delete": "Elimina soggiorno",
+		"research": "Cerca un soggiorno",
+		"success": {
+			"stayCreated": "Il soggiorno è stato creato con successo.",
+			"stayUpdated": "Il soggiorno è stato modificato con successo.",
+			"stayDeleted": "Il soggiorno è stato eliminato con successo.",
+			"stayFinished": "Il soggiorno è stato terminato con successo."
+		},
+		"confirmAdd": "Sei sicuro di voler aggiungere questo soggiorno?",
+		"confirmDelete": "Sei sicuro di voler eliminare questo soggiorno?",
+		"addStay": {
+			"title": "Aggiungi un soggiorno",
+			"informations": "Informazioni sul soggiorno",
+			"client": {
+				"requiredName": "Il nome del cliente è obbligatorio",
+				"requiredFirstName": "Il nome del cliente è obbligatorio",
+				"requiredValidEmail": "L'email del cliente deve essere valida",
+				"requiredEmail": "L'email del cliente è obbligatoria",
+				"requiredAdress": "L'indirizzo del cliente è obbligatorio",
+				"requiredCity": "La città del cliente è obbligatoria",
+				"requiredPostalCode": "Il codice postale del cliente è obbligatorio",
+				"requiredCountry": "Il paese del cliente è obbligatorio",
+				"requiredPhoneNumber": "Il numero di telefono del cliente è obbligatorio"
+			},
+			"complementary": {
+				"title": "Informazioni complementari",
+				"siteNumberRequired": "Il numero di sito è obbligatorio",
+				"arrivalDate": "Data di arrivo",
+				"arrivalDateError": "La data di arrivo deve essere inferiore o uguale a oggi",
+				"requiredArrivalDate": "È richiesta la data di arrivo",
+				"departureDate": "Data di partenza",
+				"departureDateError": "La data di arrivo deve essere superiore o uguale a arrivo",
+				"requiredDepartureDate": "È richiesta la data di partenza",
+				"adultNumber": "Numero di adulti",
+				"requiredAdultNumber": "Il numero di adulti è obbligatorio",
+				"requiredAdultNumberGreater1": "Il numero minimo di adulti è 1",
+				"requiredAdultNumberLess10": "Il numero massimo di adulti è 10",
+				"teenNumber": "Numero di adolescenti",
+				"requiredTeenNumber": "Il numero di adolescenti è obbligatorio",
+				"requiredTeenNumberGreater0": "Il numero minimo di adolescenti è 0",
+				"requiredTeenNumberLess10": "Il numero massimo di adolescenti è 10",
+				"kidNumber": "Numero di bambini",
+				"requiredKidNumber": "Il numero di bambini è obbligatorio",
+				"requiredKidNumberGreater0": "Il numero minimo di bambini è 0",
+				"requiredKidNumberLess10": "Il numero massimo di bambini è 10",
+				"babyNumber": "Numero di bambini piccoli",
+				"requiredBabyNumber": "Il numero di bambini piccoli è obbligatorio",
+				"requiredBabyNumberGreater0": "Il numero minimo di bambini piccoli è 0",
+				"requiredBabyNumberLess10": "Il numero massimo di bambini piccoli è 10",
+				"animalNumber": "Numero di animali",
+				"requiredAnimalNumber": "Il numero di animali è obbligatorio",
+				"requiredAnimalNumberGreater0": "Il numero minimo di animali è 0",
+				"requiredAnimalNumberLess10": "Il numero massimo di animali è 10",
+				"nbPersonError": "Il numero di persone supera la capacità del luogo",
+				"years" : "anni"
+			}
+		},
+		"editStay": {
+			"title": "modificare un soggiorno"
+		}
+	},
+	"reservation": {
+		"title": "Prenotazioni",
+		"research": "Cerca una prenotazione",
+		"addNew": "Aggiungi una prenotazione",
+		"phoneNumber": "Numero di telefono",
+		"customerInformations": "Informazioni cliente",
+		"lastName": "Cognome",
+		"FirstName": "Nome",
+		"country": "Paese",
+		"arrivalDate": "Data di arrivo",
+		"detailsArrivalDate": "Data di arrivo sul posto",
+		"furtherInformation": "Informazioni aggiuntive",
+		"numberPeopleAnimals": "Numero di persone/animali",
+		"adults": "Adulti",
+		"teens": "Adolescenti",
+		"kids": "Bambini",
+		"babies": "Bambini piccoli",
+		"animals": "Animali",
+		"locationInformations": "Informazioni sulla posizione",
+		"locationType": "Tipo di posizione",
+		"electricity": "Elettricità",
+		"siteNumber":"Numero di piazzola",
+		"createReservation": "Crea una prenotazione",
+		"modifyReservation": "Modifica una prenotazione",
+		"confirmDelete": "Sei sicuro di voler eliminare questo prenotazione?",
+		"success": {
+			"reservationCreated": "Il prenotazione è stato creato con successo.",
+			"reservationDeleted": "Il prenotazione è stato eliminato con successo.",
+			"reservationStarted" : "Il prenotazione è stata avviata con successo"
+
+		},
+		"addReservation": {
+			"title": "Aggiungi un soggiorno",
+			"informations": "Informazioni sul soggiorno",
+			"client": {
+				"requiredName": "Il nome del cliente è obbligatorio",
+				"requiredFirstName": "Il nome del cliente è obbligatorio",
+				"requiredValidEmail": "L'email del cliente deve essere valida",
+				"requiredEmail": "L'email del cliente è obbligatoria",
+				"requiredAdress": "L'indirizzo del cliente è obbligatorio",
+				"requiredCity": "La città del cliente è obbligatoria",
+				"requiredPostalCode": "Il codice postale del cliente è obbligatorio",
+				"requiredCountry": "Il paese del cliente è obbligatorio",
+				"requiredPhoneNumber": "Il numero di telefono del cliente è obbligatorio"
+			},
+			"complementary": {
+				"title": "Informazioni complementari",
+				"arrivalDate": "Data di arrivo",
+				"arrivalDateError": "La data di arrivo deve essere successiva a quella odierna",
+				"immatriculation":"Immatricolazione",
+				"requiredArrivalDate": "È richiesta la data di arrivo",
+				"departureDate": "Data di partenza",
+				"requiredDepartureDate": "È richiesta la data di partenza",
+				"adultNumber": "Numero di adulti",
+				"requiredAdultNumber": "Il numero di adulti è obbligatorio",
+				"requiredAdultNumberGreater0": "Il numero minimo di adulti è 0",
+				"requiredAdultNumberLess10": "Il numero massimo di adulti è 10",
+				"teenNumber": "Numero di adolescenti",
+				"requiredTeenNumber": "Il numero di adolescenti è obbligatorio",
+				"requiredTeenNumberGreater0": "Il numero minimo di adolescenti è 0",
+				"requiredTeenNumberLess10": "Il numero massimo di adolescenti è 10",
+				"kidNumber": "Numero di bambini",
+				"requiredKidNumber": "Il numero di bambini è obbligatorio",
+				"requiredKidNumberGreater0": "Il numero minimo di bambini è 0",
+				"requiredKidNumberLess10": "Il numero massimo di bambini è 10",
+				"babyNumber": "Numero di bambini piccoli",
+				"requiredBabyNumber": "Il numero di bambini piccoli è obbligatorio",
+				"requiredBabyNumberGreater0": "Il numero minimo di bambini piccoli è 0",
+				"requiredBabyNumberLess10": "Il numero massimo di bambini piccoli è 10",
+				"animalNumber": "Numero di animali",
+				"requiredAnimalNumber": "Il numero di animali è obbligatorio",
+				"requiredAnimalNumberGreater0": "Il numero minimo di animali è 0",
+				"requiredAnimalNumberLess10": "Il numero massimo di animali è 10",
+				"nbStay":"Il numero di sito è obbligatorio"
+			}
+		},
+		"startReservation": {
+			"error": "\nUn soggiorno si sovrappone alle date inserite."
+		}
+	},
+	"site": {
+		"title": "Posizioni",
+		"number": "N°",
+		"type": "Tipo",
+		"electricity": "Elettricità",
+		"edit": "Modifica",
+		"delete": "Elimina",
+		"water": "Acqua",
+		"sun": "Sole",
+		"size": "Dimensione della fessura",
+		"addNew": "Aggiungi un sito",
+		"createSite": "Crea un sito",
+		"modifySite": "Modifica un sito",
+		"deleteSite": "Elimina un sito",
+		"research": "Cerca un sito",
+		"small": "Piccola posizione",
+		"large": "Ottima posizione",
+		"exposition": "Esposizion",
+		"formSubCategory": {
+			"mainInformation": "Informazione principale",
+			"electricity": "Elettricità",
+			"exposition": "Esposizione"
+		},
+		"error": {
+			"siteAlreadyExist": "Il sito esiste già."
+		},
+		"success": {
+			"reservationStarted": "La prenotazione è stata avviata con successo.",
+			"siteCreated": "Il sito è stato creato con successo.",
+			"siteUpdated": "Il sito è stata modificata con successo.",
+			"siteDeleted": "Il sito è stato eliminato con successo."
+		},
+		"confirmAdd": "Sei sicuro di voler aggiungere questo sito?",
+		"confirmDelete": "Sei sicuro di voler eliminare questo sito?",
+		"confirmEdit": "Sei sicuro di voler modificare questo sito?"
+	},
+	"client": {
+		"title": "Clienti",
+		"lastName": "Cognome",
+		"firstName": "Nome",
+		"email": "E-mail",
+		"phoneNumber": "Numero di telefono",
+		"address": "Indirizzo",
+		"city": "Città",
+		"postalCode": "Codice Postale",
+		"country": "Paese",
+		"registration": "immatricolazione",
+		"actions": "Azioni",
+		"customerInformations": "Informazioni di clienti",
+		"furtherInformation": "Informazioni aggiuntive",
+		"arrivalDate": "Data di arrivo",
+		"departureDate": "Data di partenza",
+		"stayType": "Tipo",
+		"research": "Cerca un cliente",
+		"adults": "Adulti",
+		"teens": "Adolescenti",
+		"numberPeopleAnimals": "Numero di persone/animali",
+		"kids": "Bambini",
+		"babies": "Bambini piccoli",
+		"animals": "Animali"
+	},
+	"button": {
+		"validate": "Convalidare",
+		"cancel": "Annulla",
+		"add": "Aggiungere",
+		"edit": "Modificare",
+		"delete": "Elimina"
+	},
+	"accomodationTypes": {
+		"tent": "Tenda",
+		"van": "Furgone",
+		"camperVan": "Camper",
+		"caravan": "Caravan"
+	},
+	"installation": {
+		"reservation": {
+			"findResa": "Trova la mia prenotazione",
+			"validateResa": "Convalida il mio soggiorno",
+			"confirmRecapGood": "Avete iniziato bene e ora potete godervi il campeggio !",
+			"confirmRecapError": "Si è verificato un problema, si prega di contattare il gestore del campeggio.",
+			"checkBox": "Il riepilogo è corretto e la posizione mi piace molto.."
+		},
+		"stepper": {
+			"welcome": "Presentazione del campeggio",
+			"siteChoice": "Scelta del posto",
+			"register": "Registrazione"
+		},
+		"call": {
+			"urgence":"Se hai un problema, puoi contattare Florent al"
+		},
+		"generalChoices": {
+			"yes": "Sì",
+			"no": "No",
+			"whatever": "Non importa"
+		},
+		"welcomePage": {
+			"title": "Benvenuti al campeggio </br> Le Chenantier",
+			"button": "Visito il campeggio",
+			"button2": "Ho una prenotazione",
+			"button3": "Sono installato"
+		},
+		"presentationPage": {
+			"title": "Presentazione del campeggio",
+			"content1": "Ciao e benvenuto al campeggio Chenantier.",
+			"content2": "Vi invito ora a scoprire il campeggio attraverso questo piccolo video",
+			"button": "Vedere gli posizione"
+		},
+		"presentationSite": {
+			"headPage": "Scelta del posto",
+			"title": "Abbiamo diversi tipi di piazzole :",
+			"item1": {
+				"content": "esposte a sud (all'ombra della vostra tenda o roulotte), una magnifica vista a 180° sulla Dent Parrachée e sul Parco Nazionale della Vanoise. 2 piazzole per terrazza. Ideale per godersi il panorama e il sole..",
+				"title": "Terrazze panoramiche: "
+			},
+			"item2": {
+				"content": "all'ombra al mattino e a mezzogiorno con una magnifica vista.",
+				"title": "Terrazze individuali: "
+			},
+			"item3": {
+				"content": "si trova a 1250 m. Le ore più calde sono quelle tra le 12.00 e le 16.00. Le notti sono ancora fresche, quindi il sole è molto gradito, soprattutto al mattino e alla sera. Se prevedete di stare in giro quasi ogni giorno, non cercate necessariamente l'ombra!",
+				"title": "Sole: "
+			},
+			"item4": {
+				"content": "non esitate, date un'occhiata.",
+				"title": "Servizi igienici: "
+			},
+			"item5": {
+				"content": "più tranquille, per lo più all'ombra.",
+				"title": "Le piazzole più intime: "
+			},
+			"button": "Sto cercando un luogo"
+		},
+		"siteFormPage": {
+			"title": "Cerca un posto",
+			"content": "Per essere certi di potervi offrire un luogo adatto, vi preghiamo di compilare il modulo sottostante.",
+			"label": {
+				"nbPerson": "Numero di persone (+3 anni) *",
+				"nbNight": "Numero di notti *",
+				"accomodation": "Alloggio principale",
+				"electricity": "Elettricità"
+			},
+			"error": {
+				"requiredField": "Campo richiesto",
+				"nbPersonMin": "Numero minimo di persone: 1",
+				"nbNightMin": "Numero minimo di notti: 1",
+				"phonePattern": "Il formato non è buono"
+			},
+			"info": {
+				"nbNight": "Se il campeggio e la regione vi piacciono, se il tempo è buono, per quante notti al massimo vorreste fermarvi? In questo modo potremo determinare le piazzole disponibili e potrete regolare la durata del vostro soggiorno in base ai vostri desideri."
+			},
+			"button": "Cercare"
+		},
+		"siteListPage": {
+			"title": "Scelta del posto",
+			"button": {
+				"map": "Carta dei posto",
+				"filters": "Filtrare"
+			},
+			"listLabel": {
+				"availableToday": "{{number}} ora disponibile",
+				"availableTomorrow": "{{number]} disponibile domani"
+			},
+			"chips": {
+				"siteNumber": "Posto {{number}}",
+				"siteFullyAvailable": "Disponibile",
+				"sitePartiallyAvailable": "Disponibile per {{day}} giorni",
+				"maxCapacity": "{{capacity}} massimo",
+				"electricityAvailable": "Disponibile",
+				"electricityUnavailable": "Non disponibile"
+			},
+			"filters": {
+				"sun": "Sole",
+				"shadow": "Ombra",
+				"whatever": "Non importa"
+			}
+		},
+		"register": {
+			"title": "Registrazione"
+		},
+		"recap": {
+			"chosenSite": "Hai scelto la posizione {{number}}",
+			"writeInformation": "Inserisci i tuoi dati per completare la registrazione",
+			"personalInformation": "Informazioni personali",
+			"country": "Paese",
+			"immatriculation": "Immatricolazione",
+			"contact": "Contatto",
+			"phoneNumber": "Numero di telefono",
+			"startStay": "Inizio del soggiorno",
+			"recapitulatif": "Riepilogo",
+			"siteNumber": "Posizione n° {{number}}",
+			"informations": "Informazioni",
+			"accommodation": "Alloggio",
+			"numberOfPeople": "Numero di persone",
+			"accomodationType": "Tipo di alloggio",
+			"sunlight": "Sole",
+			"numberOfAnimals": "Numero di animali",
+			"numberOfKids": "Numero di bambini",
+			"numberOfBabies": "Numero di bambini piccoli",
+			"numberOfAdults": "Numero di adulti",
+			"minNumber1": "Almeno 1",
+			"minNumber0": "Almeno 0",
+			"stay": "Informazioni soggiorno",
+			"site": "Informazioni Posizioni",
+			"pricingTitle": "Informazioni prezzo",
+			"endRegistration": "Check-in confermato, godetevi il vostro soggiorno!",
+			"pricing": {
+				"nightCost": "Costo/note",
+				"totalNightCost": "Totale/note",
+				"estimatedNightCost": "Costo stimato/note",
+				"nbAdults": "{{number}} adulti",
+				"nbKids": "{{number}} bambini",
+				"nbAnimal": "{{number}} animale",
+				"nbAnimals": "{{number}} animali"
+			}
+		}
+	},
+	"pricing": {
+		"title": "Prezzi",
+		"bigSitePrice": "Grande posto",
+		"smallSitePrice": "Piccolo posto",
+		"electricityFee": "Tariffa elettrica",
+		"adultPrice": "Tariffa per adulti",
+		"kidPrice": "Tariffa per bambini",
+		"adultTax": "Tassa per adulti",
+		"animalTax": "Tassa per animale",
+		"success": {
+			"updated": "I prezzi sono stati modificati"
+		},
+		"error": {
+			"updated": "Problema nell'aggiornamento delle tariffe"
+		}
+	}
+}
